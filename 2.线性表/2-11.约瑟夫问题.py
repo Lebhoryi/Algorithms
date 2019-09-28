@@ -50,7 +50,7 @@ class LCLink(object):
     @staticmethod
     def l_link(link):
         if not link:
-            return None
+            return 0
         cur = link.next
         count = 1
         while cur.next != link.next:
