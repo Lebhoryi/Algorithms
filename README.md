@@ -15,6 +15,8 @@
 
 ### 2.线性表
 
+[线性表](https://github.com/Lebhoryi/Algorithms/tree/master/2.%E7%BA%BF%E6%80%A7%E8%A1%A8)
+
 ### 3.栈和队列
 
 ### 4.树 
