@@ -4,7 +4,7 @@
            数组储存[data, cur]，data是当前值，cur是下一个节点的下标。
            其中头节点的cur储存的是第一个节点的下标，最后一个固定长度的节点的cur
            存储的是头节点的下标
-@ Update:  
+@ Update:  代码实现的有问题 ，没有修改， 2919/09/29
 
 @ file:    2-8.静态链表及相关操作.py
 @ version: 1.0.0
@@ -67,6 +67,7 @@ class Link(object):
 
 
 if __name__ == "__main__":
+
     list_a = [1, 3, 5, 2, 4]
     maxsize = 10
     link_a = Link.c_link(list_a, maxsize)  # 创建链表
