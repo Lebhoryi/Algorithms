@@ -25,10 +25,8 @@ def conflict(nexty, chess):
     ########################################################
 
     len_chess = len(chess)
-    if nexty in chess:
-        return True
     for i in range(len_chess):
-        if abs(chess[i]-nexty) == len_chess-i:
+        if abs(chess[i]-nexty) == len_chess-i or chess[i] == nexty:
             return True
     return False
 
@@ -42,7 +40,7 @@ def EightQueens(row, chess):
     for pos in range(row):
         if not conflict(pos, chess):
             chess1 = chess[:]  # 为了防止回退的时候更改原chess
-            print(chess)
+            # print(chess)
             chess1.append(pos)  # 当不满足时回溯到上一个状态
             EightQueens(row, chess1)
     return count
