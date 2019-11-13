@@ -19,7 +19,11 @@
 
 ### 3.栈和队列
 
+[栈和队列](https://github.com/Lebhoryi/Algorithms/tree/master/3.%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97)
+
 ### 4.树 
+
+[二叉树](https://github.com/Lebhoryi/Algorithms/tree/master/4.%E6%A0%91)
 
 ---
 
