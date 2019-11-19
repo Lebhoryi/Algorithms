@@ -2,7 +2,7 @@
 > - 传送门： [https://time.geekbang.org/column/126](https://time.geekbang.org/column/126)
 > - 新发现的宝贝1：[https://pegasuswang.github.io/python_data_structures_and_algorithms/14_%E6%A0%91%E4%B8%8E%E4%BA%8C%E5%8F%89%E6%A0%91/tree/](https://pegasuswang.github.io/python_data_structures_and_algorithms/14_树与二叉树/tree/)
 > - 新发现的宝贝2：[https://www.bilibili.com/video/av17888939](https://www.bilibili.com/video/av17888939)
-> - 代码传送门：
+> - 代码传送门：[https://github.com/Lebhoryi/Algorithms/tree/master/4.%E6%A0%91](https://github.com/Lebhoryi/Algorithms/tree/master/4.树)
 > - 二叉树基本用链式存储结构
 > - 2019/11/01
 
@@ -248,5 +248,5 @@
 
 1. 左右反转二叉树
 2. 给定前序和后序构造二叉树
-
-
+3. 验证搜索二叉树
+4. 二叉树的最近公共祖先
