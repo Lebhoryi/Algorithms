@@ -54,7 +54,7 @@ class BinTree(object):
             # 左孩子
             item = inputValue[index]
             index += 1
-            if item != "null":
+            if item.val != "null":
                 node.left = item
                 queue.append(node.left)
 
@@ -63,9 +63,10 @@ class BinTree(object):
             # 右孩子
             item = inputValue[index]  # 为了跳过null 元素
             index += 1
-            if item != "null":
+            if item.val != "null":
                 node.right = item
                 queue.append(node.right)
+        return self.root
 
 
 def stringToTreeNode(inputValues):
@@ -113,8 +114,8 @@ if __name__ == "__main__":
     import sys
     lines = list(sys.stdin.readline().strip().split())
     tree = BinTree()
-    tree.string2node(lines)
-    # printTree(tree.root)
-    ret = tree.isValidBST2(tree.root)
+    root = tree.string2node(lines)
+    printTree(root)
+    ret = tree.isValidBST2(root)
     print(ret)
 
