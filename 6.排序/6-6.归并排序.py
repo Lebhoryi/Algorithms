@@ -3,7 +3,7 @@
 @ Summary: merge sort
 @ Update:  
 
-@ file:    6-7.归并排序.py
+@ file:    6-6.归并排序.py
 @ version: 1.0.0
 
 @ Author:  Lebhoryi@gmail.com
