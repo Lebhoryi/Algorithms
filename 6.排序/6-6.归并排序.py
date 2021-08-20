@@ -42,6 +42,7 @@ def merge_sort(alist):
     new_alist = merge_sorted_list(left_half, right_half)
     return new_alist
 
+
 if __name__ == "__main__":
     alist = list(range(10))
     import random
